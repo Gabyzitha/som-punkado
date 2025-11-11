@@ -1,11 +1,15 @@
-/* LIMPAR FORMATAÇÕES PADRÕEs*/
+/* LIMPAR FORMATAÇÕES PADRÕES*/
 
 * {
     margin: 0;
     padding: 0;
 }
 
-/* CABEÇALHO*/
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+/* CABEÇALHO */
 #area-cabecalho {
     background-color: #141212;
     height: 160px;
@@ -36,6 +40,32 @@
     gap: 20px;
 }
 
+/* SOBRE */
+
+#area-conteudo-sobre{
+    width: 1220px;
+    height: 800px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    margin-top: 65px;
+}
+
+#titulo-sobre {
+    width: 400px ;
+    margin: 77px 20px 20px 40px;
+    font-size: 36px;
+}
+
+#texto-som-punkado {
+    margin: 40px 155px;
+    width: 911px;
+    height: 405px;
+    font-size: 24px;
+
+}
+
 /*CONTEUDO HOME*/
 
 .banner {
@@ -49,10 +79,14 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    margin-top: 100px;
+    margin-top: 50px;
     width: 500px;
 }
-/*FORMATAÇÕES MENU*/
+
+
+
+
+/*FORMATAÇÕES*/
 
 a{
     text-decoration: none;
@@ -63,6 +97,10 @@ a:link, a:visited{
     padding: 15px;
     font-size: 25px;
     font-weight: bold;
+}
+
+p {
+    padding: 15px;
 }
 
 
