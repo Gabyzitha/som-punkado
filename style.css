@@ -40,7 +40,7 @@
     gap: 20px;
 }
 
-/* SOBRE */
+/*  PAGINA SOBRE */
 
 #area-conteudo-sobre{
     width: 1220px;
@@ -66,6 +66,67 @@
 
 }
 
+
+
+/* VINIS IMAGENS*/
+
+#vinil-avrill-lavigne {
+    max-width: 130%;
+}
+
+#vinil-sum-41{
+    max-width: 80%;
+}
+
+#vinil-blink-182{
+    max-width: 90%;
+}
+
+#vinil-the-offspring{
+    max-width: 100%;
+}
+
+#vinil-queen {
+    max-width: 90%;
+}
+
+#vinil-the-beatles {
+    max-width: 105%;
+}
+
+#vinil-rolling-stones{
+    max-width: 105%;
+}
+
+#vinil-bon-jovi{
+    max-width: 115%;
+}
+
+#vinil-twenty-one-pilots{
+    max-width: 100%;
+}
+
+#vinil-tame-impala{
+    max-width: 100%;
+}
+
+#rock-classico-titulo{
+    width: 650px;
+    display: flex;
+   justify-content: center;
+   margin-top: 0px;
+   margin-bottom: 0;
+}
+
+#indie-rock-titulo{
+    width: 500px;
+    display: flex;
+   justify-content: center;
+   margin-top: 0px;
+   margin-bottom: 0;
+}
+
+
 /*CONTEUDO HOME*/
 
 .banner {
@@ -83,6 +144,114 @@
     width: 500px;
 }
 
+/* CONTEUDO VINIL*/
+
+.area-conteudo-vinis {
+
+    width: 1220px;
+    height: 1000px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.imagem-titulo {
+   display: flex;
+   justify-content: center;
+   margin-top: 25px;
+  
+}
+
+.area-disco {
+    border-radius: 20px;
+    width: 373px;
+    height: 480px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    text-align: center;
+    margin-left: 20px;
+    padding-top: 10px;
+
+    transition: box-shadow 0.2s, transform 0.2s;
+
+}
+
+
+.area-disco:hover  {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    /*transform: scale(1.1);*/
+}
+
+.link-disco{
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    text-indent: -9999px;
+    background: transparent;
+    cursor: pointer;
+
+}
+
+
+.imagem-vinil {
+    width: 300px;
+    height: 300px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.padrao-vinil {
+    display: block;
+    height: auto;
+    object-fit: contain;
+
+}
+
+.nome-artista, .descricao-vinil, .preco {
+    width: 100%;
+    text-align: left;
+    padding-left: 35px;
+    box-sizing: border-box;
+}
+
+.nome-artista {
+    color: #870000;
+    text-decoration: underline;
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.descricao-vinil {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+.preco {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.valor {
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.parcelamento {
+    font-size: 0.85rem;
+}
 
 
 
