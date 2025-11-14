@@ -67,10 +67,9 @@
 }
 
 
+/* VINIS IMAGENS CARD*/
 
-/* VINIS IMAGENS*/
-
-#vinil-avrill-lavigne {
+#vinil-avril-lavigne {
     max-width: 130%;
 }
 
@@ -78,36 +77,20 @@
     max-width: 80%;
 }
 
-#vinil-blink-182{
+#vinil-blink-182, #vinil-queen{
     max-width: 90%;
 }
 
-#vinil-the-offspring{
+#vinil-the-offspring, #vinil-twenty-one-pilots, #vinil-tame-impala{
     max-width: 100%;
 }
 
-#vinil-queen {
-    max-width: 90%;
-}
-
-#vinil-the-beatles {
-    max-width: 105%;
-}
-
-#vinil-rolling-stones{
+#vinil-the-beatles, #vinil-rolling-stones {
     max-width: 105%;
 }
 
 #vinil-bon-jovi{
     max-width: 115%;
-}
-
-#vinil-twenty-one-pilots{
-    max-width: 100%;
-}
-
-#vinil-tame-impala{
-    max-width: 100%;
 }
 
 #rock-classico-titulo{
@@ -125,6 +108,23 @@
    margin-top: 0px;
    margin-bottom: 0;
 }
+
+/*VINIS IMAGENS COMPRAR*/
+
+
+
+#vinil-the-beatles-comprar {
+    width: 700px;
+}
+
+#vinil-bon-jovi-comprar, #vinil-sum-41-comprar, #vinil-the-neighbourhood-comprar{
+    width: 600px;
+}
+
+#vinil-tame-impala-comprar{
+    width: 550px;
+}
+
 
 
 /*CONTEUDO HOME*/
@@ -144,7 +144,7 @@
     width: 500px;
 }
 
-/* CONTEUDO VINIL*/
+/* CONTEUDO VINIL CATALOGO*/
 
 .area-conteudo-vinis {
 
@@ -251,6 +251,97 @@
 
 .parcelamento {
     font-size: 0.85rem;
+}
+
+/*AREA CONTEUDO COMPRAR VINIL*/
+
+.area-conteudo-comprar{
+    width: 1220px;
+    height: 800px;
+
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 60px;
+    margin-top: 50px;
+}
+
+
+.imagem-vinil-comprar{
+    width: 600px;
+    height: 600px;
+    margin: 100px 0;
+    margin-left: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-produto{
+    max-width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-top: 100px;
+    gap: 20px;
+}
+
+.info-produto h1{
+    font-size: 36px;
+    font-weight: 700;
+    width: 460px;
+
+
+    margin-top: 0px;
+}
+
+.valor-comprar {
+    font-size:26px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.parcelamento-comprar {
+    font-size: 20px;
+}
+
+.botao-adicionar-ao-carrinho {
+    padding: 17px 90px;
+    background-color: #c70000;
+
+    border: none;
+    border-radius: 50px;
+
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+
+
+    cursor: pointer;
+    white-space: nowrap;
+
+    display: flex;
+    align-self: center;
+    margin-top: 20px;
+
+    position: absolute;
+    left: 60%;
+    transform: translateX(-9%);
+    transition: 0.3s ease;  margin-top: 40px; 
+ 
+}
+
+.botao-adicionar-ao-carrinho:hover {
+    background-color: #a00000;
 }
 
 
